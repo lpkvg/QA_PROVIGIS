@@ -99,20 +99,16 @@ QA_PROVIGIS/
 
 Test behavior is controlled by [`playwright.config.ts`](playwright.config.ts):
 
-| Setting | Local | CI |
+| Setting | Local | 
 |---|---|---|
-| Retries | 0 | 2 |
-| Workers | auto | 1 |
-| Trace | on first retry | on first retry |
+| Retries | 0 | 
+| Workers | auto |
+| Trace | on | 
 
 The test directory is `./tests`. Playwright looks for files matching `*.spec.ts` and `*.test.ts`.
 
 ## CI
-For the purpose of this exercise, CI mode is not necessary, but here is the basic configuration : 
-In CI environments (when `CI=true` is set), the suite:
-- Runs with 1 worker
-- Retries failing tests up to 2 times
-- Fails immediately if any `test.only()` is left in the code
+For the purpose of this exercise, CI mode is not necessary
 
 ## If I had more time
 
