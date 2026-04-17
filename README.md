@@ -115,12 +115,13 @@ BMI test is a good candidate for data-driven testing and use a set of generated 
 
 ### To create Register test
 
-You are a senior QA Automation Engineer specialized in end-to-end testing using Playwright and Typescript.
-Based on the login test, page and testdata files, create a test that tries the register functionality. 
-Test : Automate the following scenario:
-successful registration
-URL: https://practice.expandtesting.com/register
-HTML : <form name="register" id="register" data-testid="register" action="/register" method="post">
+You are a senior QA Automation Engineer specialized in end-to-end testing using Playwright and Typescript.  
+Based on the login test, page and testdata files, create a test that tries the register functionality.  
+Test : Automate the following scenario:  
+successful registration.  
+URL: https://practice.expandtesting.com/register. 
+HTML :  
+```<form name="register" id="register" data-testid="register" action="/register" method="post">
                             <div>
                                 <div class="mb-3">
                                     <label for="username" class="form-label">Username</label>
@@ -139,7 +140,7 @@ HTML : <form name="register" id="register" data-testid="register" action="/regis
                             </div>
                             <button type="submit" class="btn btn-bg btn-primary d-block w-100">Register</button>
                         </form>
-
+```
 ### To generate the readme file
 Write a readme with Github standards sections to make any person able to clone this repo run my tests, and understand the structure of the test automation framework.
 
