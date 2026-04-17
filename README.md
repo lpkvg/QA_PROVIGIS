@@ -95,21 +95,6 @@ QA_PROVIGIS/
 └── README.md
 ```
 
-## Configuration
-
-Test behavior is controlled by [`playwright.config.ts`](playwright.config.ts):
-
-| Setting | Local | 
-|---|---|---|
-| Retries | 0 | 
-| Workers | auto |
-| Trace | on | 
-
-The test directory is `./tests`. Playwright looks for files matching `*.spec.ts` and `*.test.ts`.
-
-## CI
-For the purpose of this exercise, CI mode is not necessary
-
 ## If I had more time
 
 
